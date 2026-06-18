@@ -206,14 +206,6 @@ function LessonDetailPage({ data, routePrefix }) {
         <title>{`Tuần ${lesson.week}: ${lesson.topic} - IELTS Summer`}</title>
         <meta name="description" content={`Chi tiết bài học tuần ${lesson.week} - ${lesson.topic}`} />
       </Helmet>
-      
-      <button 
-        className="btn-secondary" 
-        onClick={() => navigate(`/${routePrefix}`)}
-        style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '8px' }}
-      >
-        <ArrowLeft size={18} /> Quay lại danh sách
-      </button>
 
       <div className="card" style={{ padding: '2.5rem', marginBottom: '2rem', cursor: 'default' }}>
         <div style={{marginBottom: '2rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1.5rem'}}>
@@ -248,13 +240,16 @@ function LessonDetailPage({ data, routePrefix }) {
                     if (expandedDay !== dp.day) setExpandedPracticeDay(null);
                   }}
                 >
-                  <div>
-                    <h4 style={{ display: 'flex', alignItems: 'center', gap: '10px', margin: '0 0 0.5rem 0', color: 'var(--text-main)', fontSize: '1.2rem', textDecoration: isCompleted ? 'line-through' : 'none' }}>
-                      {isCompleted ? <CheckCircle size={20} color="var(--primary)" /> : <Calendar size={20} color="var(--primary)" />} Ngày {dp.day}: {dp.task}
+                  <div style={{ flex: 1, paddingRight: '1rem', minWidth: 0 }}>
+                    <h4 style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', margin: '0 0 0.5rem 0', color: 'var(--text-main)', fontSize: '1.2rem', textDecoration: isCompleted ? 'line-through' : 'none', wordBreak: 'break-word' }}>
+                      <div style={{ marginTop: '2px', flexShrink: 0 }}>
+                        {isCompleted ? <CheckCircle size={20} color="var(--primary)" /> : <Calendar size={20} color="var(--primary)" />}
+                      </div>
+                      <span style={{ lineHeight: '1.4' }}>Ngày {dp.day}: {dp.task}</span>
                     </h4>
-                    <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', margin: 0, fontSize: '1.05rem', textDecoration: isCompleted ? 'line-through' : 'none' }}>{dp.detail}</p>
+                    <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', margin: '0 0 0 32px', fontSize: '1.05rem', textDecoration: isCompleted ? 'line-through' : 'none', wordBreak: 'break-word' }}>{dp.detail}</p>
                   </div>
-                  <div style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '1rem', flexShrink: 0, paddingLeft: '1.5rem' }}>
+                  <div style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '1rem', flexShrink: 0, marginLeft: 'auto' }}>
                     {expandedDay === dp.day ? '▲ Thu gọn' : '▼ Chi tiết'}
                   </div>
                 </div>
