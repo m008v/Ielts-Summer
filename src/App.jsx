@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Calendar, Target, BookOpen, CheckCircle, X, Edit3, Sun, Moon } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 function PracticeTest({ test }) {
   const storageKey = `ielts_summer_answers_${test.id}`;
@@ -103,6 +104,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('60days');
   const [selectedLesson, setSelectedLesson] = useState(null);
+  const [expandedDay, setExpandedDay] = useState(null);
   const [selectedPracticeId, setSelectedPracticeId] = useState(null);
   
   // Theme state
@@ -311,9 +313,9 @@ function App() {
 
       {/* Modal Popup (Glassmorphism) */}
       {selectedLesson && (
-        <div className="modal-overlay" onClick={() => setSelectedLesson(null)}>
+        <div className="modal-overlay" onClick={() => { setSelectedLesson(null); setExpandedDay(null); }}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="modal-close" onClick={() => setSelectedLesson(null)}>
+            <button className="modal-close" onClick={() => { setSelectedLesson(null); setExpandedDay(null); }}>
               <X size={24} />
             </button>
             <div style={{marginBottom: '2rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1.5rem'}}>
@@ -337,10 +339,28 @@ function App() {
               <div className="lesson-list">
                 {selectedLesson.daily_plan.map(dp => (
                   <div key={dp.day} className="lesson-item">
-                    <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.5rem', color: 'var(--text-main)' }}>
-                      <Calendar size={18} color="var(--primary)" /> Ngày {dp.day}: {dp.task}
-                    </h4>
-                    <p style={{ color: 'var(--text-muted)', lineHeight: '1.6' }}>{dp.detail}</p>
+                    <div 
+                      style={{ cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} 
+                      onClick={() => setExpandedDay(expandedDay === dp.day ? null : dp.day)}
+                    >
+                      <div>
+                        <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: '0 0 0.5rem 0', color: 'var(--text-main)' }}>
+                          <Calendar size={18} color="var(--primary)" /> Ngày {dp.day}: {dp.task}
+                        </h4>
+                        <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', margin: 0 }}>{dp.detail}</p>
+                      </div>
+                      <div style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '0.9rem', flexShrink: 0, paddingLeft: '1rem' }}>
+                        {expandedDay === dp.day ? '▲ Thu gọn' : '▼ Chi tiết'}
+                      </div>
+                    </div>
+                    
+                    {expandedDay === dp.day && dp.deep_dive && (
+                      <div style={{ marginTop: '1.5rem', paddingTop: '1.5rem', borderTop: '1px solid var(--border-color)', animation: 'fadeIn 0.3s ease' }}>
+                        <div className="markdown-body">
+                          <ReactMarkdown>{dp.deep_dive}</ReactMarkdown>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
