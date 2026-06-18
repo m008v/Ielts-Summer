@@ -101,6 +101,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('60days');
   const [selectedLesson, setSelectedLesson] = useState(null);
+  const [selectedPracticeId, setSelectedPracticeId] = useState(null);
 
   useEffect(() => {
     fetch('http://localhost:8000/api.php')
@@ -230,7 +231,38 @@ function App() {
         )}
 
         {activeTab === 'practice' && data.practice_tests && data.practice_tests.length > 0 && (
-          <PracticeTest test={data.practice_tests[0]} />
+          <div>
+            {!selectedPracticeId ? (
+              <div>
+                <h2><Edit3 style={{display: 'inline', marginRight: '10px'}}/> Danh sách Bài Luyện tập Reading</h2>
+                <p style={{marginBottom: '2rem'}}>Chọn một bài đọc để bắt đầu tính giờ và làm bài.</p>
+                <div className="grid">
+                  {data.practice_tests.map(test => (
+                    <div key={test.id} className="card clickable-card" onClick={() => setSelectedPracticeId(test.id)}>
+                      <div className="card-body">
+                        <h3 className="card-title">{test.title}</h3>
+                        <p style={{marginBottom: '1rem', color: 'var(--text-muted)'}}>Số câu hỏi: {test.questions.length}</p>
+                        <div className="task-box">
+                          <p>Bắt đầu làm bài →</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div>
+                <button 
+                  className="btn-primary" 
+                  style={{width: 'auto', marginBottom: '1.5rem', backgroundColor: 'var(--text-muted)'}} 
+                  onClick={() => setSelectedPracticeId(null)}
+                >
+                  ← Quay lại danh sách
+                </button>
+                <PracticeTest test={data.practice_tests.find(t => t.id === selectedPracticeId)} />
+              </div>
+            )}
+          </div>
         )}
       </main>
 

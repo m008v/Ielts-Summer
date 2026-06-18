@@ -1078,6 +1078,550 @@
           "answer": "patience"
         }
       ]
+    },
+    {
+      "id": "passage_2",
+      "title": "Passage 2 - Urban green spaces",
+      "content": [
+        "As cities grow, land becomes more expensive and competition for space increases. Housing, roads, offices and shopping centres often receive priority because they appear to bring immediate economic benefits. Parks and gardens, by contrast, may be treated as pleasant but non-essential additions. Yet a growing body of urban research suggests that green spaces are not merely decorative. They can influence public health, social relationships and even the economic attractiveness of a city.",
+        "One obvious benefit of green spaces is physical health. Parks give residents a place to walk, run, cycle or play sports without needing expensive private facilities. This is especially important in dense urban areas where many people live in small apartments. When exercise becomes part of daily life rather than a special activity that requires planning and money, residents are more likely to maintain healthy habits.",
+        "Green spaces may also support mental well-being. A quiet park does not solve serious psychological problems on its own, but it can provide relief from noise, traffic and visual stress. For students and office workers, even a short walk among trees can create a sense of distance from screens and deadlines. This small break may help people return to their tasks with better concentration.",
+        "The social value of parks is sometimes overlooked. In many cities, people from different age groups and income levels rarely share the same spaces. Public parks can become meeting points where children play, elderly people exercise, and families spend time together without needing to buy anything. This matters because social trust is difficult to build when every activity takes place in a commercial environment.",
+        "Of course, green spaces must be planned carefully. A park that is poorly lit, difficult to reach or badly maintained may be underused. In some cases, new parks can even contribute to rising property prices, pushing lower-income residents out of the neighbourhoods they helped create. For this reason, urban planners need to think about access and fairness, not just beauty.",
+        "The challenge for modern cities is not whether green spaces are nice to have. It is whether city leaders understand them as essential infrastructure. A well-designed park can improve health, reduce stress, strengthen community ties and make urban life more humane. In crowded cities, that is not a luxury; it is a necessity."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "short",
+          "text": "1. Match Heading for Paragraph 1 (A-H)",
+          "answer": "H"
+        },
+        {
+          "id": 2,
+          "type": "short",
+          "text": "2. Match Heading for Paragraph 2 (A-H)",
+          "answer": "D"
+        },
+        {
+          "id": 3,
+          "type": "short",
+          "text": "3. Match Heading for Paragraph 3 (A-H)",
+          "answer": "F"
+        },
+        {
+          "id": 4,
+          "type": "short",
+          "text": "4. Match Heading for Paragraph 4 (A-H)",
+          "answer": "G"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. Match Heading for Paragraph 5 (A-H)",
+          "answer": "A"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. Parks may be treated as pleasant but ________ additions.",
+          "answer": "non-essential"
+        },
+        {
+          "id": 7,
+          "type": "short",
+          "text": "7. In dense urban areas, many residents live in small ________.",
+          "answer": "apartments"
+        },
+        {
+          "id": 8,
+          "type": "short",
+          "text": "8. A short walk among trees can create distance from screens and ________.",
+          "answer": "deadlines"
+        },
+        {
+          "id": 9,
+          "type": "short",
+          "text": "9. Social trust is hard to build when every activity happens in a ________ environment.",
+          "answer": "commercial"
+        },
+        {
+          "id": 10,
+          "type": "short",
+          "text": "10. City leaders should understand parks as essential ________.",
+          "answer": "infrastructure"
+        }
+      ]
+    },
+    {
+      "id": "passage_3",
+      "title": "Passage 3 - Traditional crafts and tourism",
+      "content": [
+        "Traditional crafts are often presented to tourists as colourful symbols of local culture. In markets and workshops, visitors may watch artisans make pottery, weave fabric or carve wood using techniques that have been passed down for generations. These experiences can be memorable, and tourism can provide much-needed income for communities that might otherwise struggle to keep their crafts alive.",
+        "The relationship between tourism and craft traditions, however, is complicated. On the positive side, tourist demand can create jobs for local people and encourage younger generations to learn skills that once seemed economically unattractive. When craftspeople can earn a stable income, they are more likely to continue practising and teaching their craft. Tourism can also introduce local products to international markets, giving small communities a wider audience.",
+        "At the same time, the pressure to sell can change the craft itself. Items may be simplified, made more quickly or redesigned to match tourists' expectations. A traditional object that once had religious, practical or family significance may become a cheap souvenir. This does not always destroy the craft, but it can reduce its cultural meaning.",
+        "Another problem is who receives the financial benefit. In some tourist areas, middlemen, travel agencies or large shops take most of the profit, while artisans receive only a small payment for their work. If this happens, tourism may create the appearance of cultural preservation without actually supporting the people who hold the knowledge.",
+        "Some communities have responded by developing craft cooperatives. These organisations allow artisans to share resources, set fair prices and explain the meaning of their work directly to visitors. Workshops can be designed not only as shopping opportunities but also as educational experiences, where tourists learn why certain patterns, materials or techniques matter.",
+        "For tourism to support traditional crafts responsibly, it must respect both the product and the people behind it. Buying a handmade object should not be treated as simply collecting a pretty item. It can also be a way of recognising the time, skill and cultural memory contained in the object. When tourism is managed with this respect, it can help traditions adapt without turning them into empty performances."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Tourism can help communities maintain traditional crafts.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. All changes made for tourists destroy the cultural value of crafts.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Younger people may be more willing to learn crafts if they can earn money from them.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Travel agencies always pay artisans fairly.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "type": "tfng",
+          "text": "5. Craft cooperatives can help artisans explain their work to visitors.",
+          "answer": "True"
+        },
+        {
+          "id": 6,
+          "type": "tfng",
+          "text": "6. Tourists should only buy crafts that have religious meaning.",
+          "answer": "False"
+        },
+        {
+          "id": 7,
+          "type": "short",
+          "text": "7. Which paragraph warns that profit may not reach artisans? (1-6)",
+          "answer": "4"
+        },
+        {
+          "id": 8,
+          "type": "short",
+          "text": "8. Which paragraph gives examples of crafts tourists may observe? (1-6)",
+          "answer": "1"
+        },
+        {
+          "id": 9,
+          "type": "short",
+          "text": "9. Which paragraph suggests a solution involving shared organisation? (1-6)",
+          "answer": "5"
+        },
+        {
+          "id": 10,
+          "type": "short",
+          "text": "10. Which paragraph mentions the idea that crafts can reach wider markets? (1-6)",
+          "answer": "2"
+        },
+        {
+          "id": 11,
+          "type": "short",
+          "text": "11. Which paragraph warns about the risk of crafts becoming cheap souvenirs? (1-6)",
+          "answer": "3"
+        },
+        {
+          "id": 12,
+          "type": "short",
+          "text": "12. Which paragraph notes the need to respect both objects and makers? (1-6)",
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "id": "passage_4",
+      "title": "Passage 4 - The history of public libraries",
+      "content": [
+        "Public libraries have long stood as cornerstones of free education and community engagement. Historically, they were established to democratize access to knowledge, ensuring that wealth was not a prerequisite for learning. In the 19th century, philanthropic efforts, most notably those of Andrew Carnegie, spurred the construction of thousands of libraries worldwide.",
+        "As society evolved, so did the function of the library. No longer just silent repositories of books, modern libraries serve as vibrant community hubs. They offer internet access, digital literacy classes, and meeting spaces for local groups. This transformation was largely driven by the digital revolution, which shifted the emphasis from physical books to accessible information in all its forms.",
+        "However, the transition has not been without challenges. Libraries frequently face budget cuts, forcing them to reduce hours, limit staff, or curtail new acquisitions. The rise of search engines and e-books also led to predictions of the library's demise, as critics argued that information was now universally available online.",
+        "Despite these pressures, libraries have proven remarkably resilient. By adapting their services to meet contemporary needs—such as providing free access to subscription databases or lending out laptops and Wi-Fi hotspots—they continue to draw patrons. Their survival highlights an enduring human need for physical community spaces and trusted sources of information."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Libraries were originally built to ensure only wealthy people had access to education.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. Andrew Carnegie single-handedly funded the construction of all 19th-century libraries.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Modern libraries have expanded their services to include digital literacy classes.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. The digital revolution caused a decrease in the number of library visitors.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What term is used to describe modern libraries, replacing the idea of 'silent repositories'?",
+          "answer": "community hubs"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What is one major financial challenge that libraries frequently face?",
+          "answer": "budget cuts"
+        }
+      ]
+    },
+    {
+      "id": "passage_5",
+      "title": "Passage 5 - The rise of online learning",
+      "content": [
+        "Online learning has experienced an unprecedented surge in popularity, accelerated significantly by global events that restricted in-person gatherings. This mode of education offers unparalleled flexibility, allowing students to engage with course materials at their own pace and from any location with internet access.",
+        "Proponents argue that online learning democratizes education by breaking down geographical barriers. A student in a rural village can now attend lectures from prestigious universities halfway across the globe. Furthermore, digital platforms often employ multimedia tools that cater to various learning styles, potentially enhancing comprehension and retention.",
+        "Conversely, critics point out significant drawbacks. The lack of face-to-face interaction can lead to feelings of isolation and hinder the development of soft skills, such as teamwork and real-time communication. Additionally, online learning requires a high degree of self-motivation; without the structured environment of a traditional classroom, many students struggle to stay on track.",
+        "Another critical issue is the digital divide. Not all students have reliable access to high-speed internet or modern devices, meaning that online education can inadvertently widen the gap between affluent and disadvantaged learners. Addressing this inequality remains a primary challenge for educators and policymakers."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Online learning forces students to study at a fixed pace.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. Students from rural areas can access courses from international universities.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Online learning improves students' teamwork skills better than traditional classrooms.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. The digital divide is a problem that has already been completely resolved.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What kind of tools do digital platforms use to cater to different learning styles?",
+          "answer": "multimedia tools"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What must students possess in a high degree to succeed in an unstructured online environment?",
+          "answer": "self-motivation"
+        }
+      ]
+    },
+    {
+      "id": "passage_6",
+      "title": "Passage 6 - Plastic waste and consumer habits",
+      "content": [
+        "The proliferation of single-use plastics has become one of the most pressing environmental issues of our time. From grocery bags to coffee cups, plastic is deeply ingrained in daily consumer habits due to its convenience and low production cost. However, its durability—a primary selling point—means that plastic waste persists in the environment for centuries.",
+        "Efforts to mitigate this crisis often focus on recycling. Yet, statistics reveal that only a small fraction of plastic is actually recycled. The rest ends up in landfills or litters natural landscapes, eventually fragmenting into microplastics that infiltrate waterways and marine ecosystems. This poses severe threats to wildlife, which frequently mistake plastic debris for food.",
+        "Changing consumer behavior is crucial to addressing this problem. Campaigns promoting reusable alternatives, such as cloth bags and metal straws, have gained traction. Nevertheless, behavioral shifts are slow. Consumers often prioritize immediate convenience over long-term environmental impacts, highlighting the psychological barriers to sustainable living.",
+        "Governments and corporations are increasingly recognized as key players in the solution. Bans on certain single-use items and the implementation of extended producer responsibility (EPR) schemes aim to force systemic change. Ultimately, tackling plastic waste requires a multifaceted approach that combines individual responsibility with robust policy interventions."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Plastic is widely used because it is expensive to produce.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. The majority of plastic produced globally is successfully recycled.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Microplastics have been found in the drinking water of most major cities.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Consumers generally find it easy to switch to sustainable habits immediately.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What do campaigns promoting sustainable living encourage consumers to use?",
+          "answer": "reusable alternatives"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What type of schemes aim to hold companies accountable for the waste they produce?",
+          "answer": "extended producer responsibility/EPR"
+        }
+      ]
+    },
+    {
+      "id": "passage_7",
+      "title": "Passage 7 - How sleep affects memory",
+      "content": [
+        "Sleep is a fundamental biological process, yet its intricate relationship with cognitive functions like memory remains an active area of scientific research. It is widely accepted that adequate sleep is essential for the consolidation of memories—the process by which short-term memories are transformed into stable, long-term ones.",
+        "During the different stages of sleep, particularly slow-wave sleep and Rapid Eye Movement (REM) sleep, the brain actively processes information acquired during waking hours. Studies have shown that neural patterns activated during learning are replayed during sleep, strengthening the synaptic connections associated with those memories.",
+        "Conversely, sleep deprivation severely impairs memory formation. Individuals who do not get enough rest struggle with focus, information retention, and problem-solving. This deficit is not merely a matter of feeling tired; a lack of sleep physically alters the brain's ability to encode new data, making learning significantly more difficult.",
+        "Moreover, research suggests that a brief nap after learning a new skill can be as effective as a full night's sleep in securing that information. This has led to the advocacy of 'power naps' in educational and professional settings, aiming to boost productivity and cognitive performance without requiring extensive downtime."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. The process of transforming short-term memories into long-term ones is called consolidation.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. Neural patterns are only active during waking hours, never during sleep.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Sleep deprivation only causes a feeling of tiredness, without affecting the brain physically.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. People who take power naps always score higher on tests.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. Which stage of sleep is mentioned alongside slow-wave sleep as important for memory?",
+          "answer": "Rapid Eye Movement/REM"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What practice is advocated in professional settings to boost cognitive performance quickly?",
+          "answer": "power naps"
+        }
+      ]
+    },
+    {
+      "id": "passage_8",
+      "title": "Passage 8 - Public transport in growing cities",
+      "content": [
+        "Rapid urbanization has led to unprecedented population density in major cities, bringing the issue of public transport to the forefront of urban planning. Efficient transit systems are essential for sustaining economic growth, as they ensure that the workforce can commute reliably without paralyzing the city with traffic congestion.",
+        "Investing in comprehensive public transport networks—such as subways, light rail, and bus rapid transit—offers numerous environmental benefits. By reducing the reliance on private vehicles, cities can significantly lower greenhouse gas emissions and improve air quality. This shift is crucial for combating climate change on a local level.",
+        "However, the development of such infrastructure is fraught with obstacles. The initial capital required for construction is immense, often leading to political debates over funding and taxation. Additionally, large-scale projects can cause severe disruption to daily life during their implementation phase, leading to public resistance.",
+        "Despite these hurdles, the long-term benefits typically outweigh the costs. Cities with robust public transport systems frequently report higher levels of social equity, as affordable transit provides lower-income residents with access to employment and education that would otherwise be out of reach."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Efficient transit systems are necessary to prevent traffic from paralyzing a city.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. Public transport networks have no significant impact on a city's air quality.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Funding for transport infrastructure usually comes from international donations.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Construction of transit projects happens without any disruption to daily life.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What do robust public transport systems provide lower-income residents access to?",
+          "answer": "employment and education"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What is one major obstacle to developing transport infrastructure mentioned in paragraph 3?",
+          "answer": "initial capital/political debates/public resistance"
+        }
+      ]
+    },
+    {
+      "id": "passage_9",
+      "title": "Passage 9 - Artificial intelligence in education",
+      "content": [
+        "The integration of Artificial Intelligence (AI) in education is poised to revolutionize the traditional classroom. Proponents envision a future where AI-driven tutoring systems provide personalized learning experiences, adapting in real-time to the pace and proficiency of each individual student. This could theoretically eliminate the 'one-size-fits-all' approach to teaching.",
+        "AI tools can also assist educators by automating administrative tasks, such as grading multiple-choice exams or tracking attendance. This allows teachers to dedicate more time to lesson planning and providing one-on-one mentorship, thereby enhancing the overall quality of instruction.",
+        "Nevertheless, the deployment of AI in schools raises significant ethical and practical concerns. Privacy advocates warn against the mass collection of student data required to train these algorithms. There is a fear that sensitive information could be misused or inadequately protected against cyber threats.",
+        "Furthermore, critics argue that an overreliance on technology might diminish the human element of teaching. Empathy, emotional support, and moral guidance are essential components of education that machines cannot replicate. Thus, finding a balance between technological efficiency and human connection remains a central challenge."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. AI tutoring systems are designed to provide the same learning experience to all students.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. AI can help teachers by automating tasks like grading.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Students' data is currently sold to private companies by most schools.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Critics believe machines can fully replace the emotional support provided by teachers.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What approach to teaching could AI theoretically eliminate?",
+          "answer": "one-size-fits-all"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What essential components of education are machines unable to replicate?",
+          "answer": "empathy, emotional support, moral guidance"
+        }
+      ]
+    },
+    {
+      "id": "passage_10",
+      "title": "Passage 10 - Food culture and identity",
+      "content": [
+        "Food is much more than mere sustenance; it is a profound expression of cultural identity and heritage. Traditional dishes often carry historical narratives, reflecting the agricultural practices, climate, and historical migrations of a specific region. Passing down recipes from generation to generation serves as a vital link between the past and the present.",
+        "In our increasingly globalized world, food culture has both expanded and faced threats of homogenization. The widespread availability of international cuisine allows people to experience diverse culinary traditions without leaving their hometowns. However, the dominance of global fast-food chains sometimes overshadows local eateries, leading to a decline in traditional cooking methods.",
+        "Culinary tourism has emerged as a significant industry, with travelers actively seeking authentic dining experiences to connect with the local culture. This trend has encouraged communities to preserve their unique culinary heritage, recognizing it as an economic asset as well as a cultural one.",
+        "Despite the changes brought by globalization, food remains a powerful unifier. Shared meals play a central role in religious festivals, family gatherings, and community celebrations across the globe. Through the act of eating together, individuals reaffirm their social bonds and shared identities."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Traditional dishes can reflect a region's historical migrations.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. Fast-food chains have completely destroyed all local cooking traditions.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Culinary tourism is currently the most profitable sector of the travel industry.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Shared meals are important for reaffirming social bonds.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What do traditional dishes carry that reflect a region's past?",
+          "answer": "historical narratives"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What trend encourages communities to preserve their culinary heritage for economic reasons?",
+          "answer": "culinary tourism"
+        }
+      ]
+    },
+    {
+      "id": "passage_11",
+      "title": "Passage 11 - Space exploration and its benefits",
+      "content": [
+        "Space exploration is often criticized for its exorbitant costs, with detractors arguing that the billions spent could be better utilized to address pressing issues on Earth, such as poverty or climate change. However, proponents contend that the long-term benefits of space programs justify the investment.",
+        "One of the primary arguments in favor of space exploration is the advancement of technology. Innovations originally developed for space missions—ranging from scratch-resistant lenses to memory foam and advanced water purification systems—have found widespread commercial applications, significantly improving everyday life.",
+        "Furthermore, exploring space satisfies an inherent human curiosity and drives scientific discovery. Studying other planets provides crucial insights into Earth's own climate and geological history. For instance, understanding the greenhouse effect on Venus has informed models of climate change on our own planet.",
+        "Finally, space exploration fosters international cooperation. Projects like the International Space Station require collaboration among nations that might otherwise be political rivals. This shared pursuit of knowledge can bridge divides and promote a unified approach to the future of humanity."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Critics believe money spent on space could be used to solve poverty.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. Scratch-resistant lenses were originally invented for everyday commercial use.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. The climate of Mars is currently being studied to predict Earth's future.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Space exploration can encourage political rivals to work together.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "text": "5. What planet's greenhouse effect has helped scientists understand Earth's climate change?",
+          "answer": "Venus"
+        },
+        {
+          "id": 6,
+          "type": "short",
+          "text": "6. What project is given as an example of international collaboration in space?",
+          "answer": "International Space Station"
+        }
+      ]
     }
   ]
 }
