@@ -109,6 +109,12 @@ function Dashboard({ data }) {
       <Helmet>
         <title>Thử thách 60 Ngày - IELTS Summer</title>
         <meta name="description" content="Cam kết luyện tập liên tục trong 60 ngày để hình thành thói quen học tiếng Anh chủ động." />
+        <meta property="og:title" content="Thử thách 60 Ngày - IELTS Summer" />
+        <meta property="og:description" content="Cam kết luyện tập liên tục trong 60 ngày để hình thành thói quen học tiếng Anh chủ động." />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Thử thách 60 Ngày - IELTS Summer" />
+        <meta name="twitter:description" content="Cam kết luyện tập liên tục trong 60 ngày để hình thành thói quen học tiếng Anh chủ động." />
       </Helmet>
       <div className="page-header">
         <h2>Kế hoạch 60 ngày thử thách</h2>
@@ -143,6 +149,12 @@ function RoutePage({ title, description, routeData, routePrefix }) {
       <Helmet>
         <title>{`${title} - IELTS Summer`}</title>
         <meta name="description" content={description} />
+        <meta property="og:title" content={`${title} - IELTS Summer`} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`${title} - IELTS Summer`} />
+        <meta name="twitter:description" content={description} />
       </Helmet>
       <div className="page-header">
         <h2>{title}</h2>
@@ -205,6 +217,12 @@ function LessonDetailPage({ data, routePrefix }) {
       <Helmet>
         <title>{`Tuần ${lesson.week}: ${lesson.topic} - IELTS Summer`}</title>
         <meta name="description" content={`Chi tiết bài học tuần ${lesson.week} - ${lesson.topic}`} />
+        <meta property="og:title" content={`Tuần ${lesson.week}: ${lesson.topic} - IELTS Summer`} />
+        <meta property="og:description" content={`Chi tiết bài học tuần ${lesson.week} - ${lesson.topic}`} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`Tuần ${lesson.week}: ${lesson.topic} - IELTS Summer`} />
+        <meta name="twitter:description" content={`Chi tiết bài học tuần ${lesson.week} - ${lesson.topic}`} />
       </Helmet>
 
       <div className="card" style={{ padding: '2.5rem', marginBottom: '2rem', cursor: 'default' }}>
@@ -313,6 +331,12 @@ function PracticeListPage({ data }) {
       <Helmet>
         <title>Danh sách Luyện tập - IELTS Summer</title>
         <meta name="description" content="Tuyển tập các bài test ngắn bám sát format IELTS, tự động chấm điểm." />
+        <meta property="og:title" content="Danh sách Luyện tập - IELTS Summer" />
+        <meta property="og:description" content="Tuyển tập các bài test ngắn bám sát format IELTS, tự động chấm điểm." />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Danh sách Luyện tập - IELTS Summer" />
+        <meta name="twitter:description" content="Tuyển tập các bài test ngắn bám sát format IELTS, tự động chấm điểm." />
       </Helmet>
       {!selectedPracticeId ? (
         <div>
