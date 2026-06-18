@@ -1,5 +1,100 @@
 import { useState, useEffect } from 'react';
-import { Calendar, Target, BookOpen, CheckCircle, X } from 'lucide-react';
+import { Calendar, Target, BookOpen, CheckCircle, X, Edit3 } from 'lucide-react';
+
+function PracticeTest({ test }) {
+  const storageKey = `ielts_summer_answers_${test.id}`;
+  const savedAnswers = JSON.parse(localStorage.getItem(storageKey)) || {};
+  
+  const [answers, setAnswers] = useState(savedAnswers);
+  const [submitted, setSubmitted] = useState(false);
+  const [score, setScore] = useState(0);
+
+  useEffect(() => {
+    localStorage.setItem(storageKey, JSON.stringify(answers));
+  }, [answers, storageKey]);
+
+  const handleChange = (qId, val) => {
+    setAnswers(prev => ({ ...prev, [qId]: val }));
+  };
+
+  const evaluateAnswer = (userAns, correctAns) => {
+    const u = (userAns || '').trim().toLowerCase();
+    const c = (correctAns || '').trim().toLowerCase();
+    if (u === c) return true;
+    if (c.includes('/') && c.split('/').some(opt => opt.trim() === u)) return true;
+    if (u.length > 3 && c.includes(u)) return true;
+    return false;
+  };
+
+  const handleSubmit = () => {
+    let s = 0;
+    test.questions.forEach(q => {
+      if (evaluateAnswer(answers[q.id], q.answer)) {
+        s++;
+      }
+    });
+    setScore(s);
+    setSubmitted(true);
+  };
+
+  return (
+    <div>
+      <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem'}}>
+        <h2><Edit3 style={{display: 'inline', marginRight: '10px'}}/> {test.title}</h2>
+        {submitted && <span className="badge" style={{fontSize: '1.1rem'}}>Điểm: {score}/{test.questions.length}</span>}
+      </div>
+      <div className="quiz-container">
+        <div className="quiz-passage">
+          {test.content.map((p, idx) => (
+            <p key={idx}>{p}</p>
+          ))}
+        </div>
+        <div className="quiz-questions">
+          {test.questions.map(q => {
+            const isCorrect = evaluateAnswer(answers[q.id], q.answer);
+
+            return (
+              <div key={q.id} className="question-item">
+                <label>{q.text}</label>
+                {q.type === 'tfng' ? (
+                  <select 
+                    value={answers[q.id] || ''} 
+                    onChange={e => handleChange(q.id, e.target.value)}
+                    disabled={submitted}
+                  >
+                    <option value="">-- Chọn đáp án --</option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                    <option value="Not Given">Not Given</option>
+                  </select>
+                ) : (
+                  <input 
+                    type="text" 
+                    value={answers[q.id] || ''} 
+                    onChange={e => handleChange(q.id, e.target.value)}
+                    disabled={submitted}
+                    placeholder="Nhập câu trả lời..."
+                  />
+                )}
+                {submitted && (
+                  <span className={isCorrect ? 'result-correct' : 'result-incorrect'}>
+                    {isCorrect ? '✓ Chính xác!' : `✗ Sai. Đáp án đúng: ${q.answer}`}
+                  </span>
+                )}
+              </div>
+            );
+          })}
+          
+          {!submitted ? (
+            <button className="btn-primary" onClick={handleSubmit}>Nộp bài</button>
+          ) : (
+            <button className="btn-primary" onClick={() => setSubmitted(false)} style={{backgroundColor: 'var(--text-muted)'}}>Làm lại</button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function App() {
   const [data, setData] = useState(null);
@@ -57,6 +152,13 @@ function App() {
           <Target size={18} style={{display: 'inline', marginRight: '8px', verticalAlign: 'text-bottom'}} />
           Lộ trình B (Nâng cao)
         </button>
+        <button 
+          className={`tab-btn ${activeTab === 'practice' ? 'active' : ''}`}
+          onClick={() => setActiveTab('practice')}
+        >
+          <Edit3 size={18} style={{display: 'inline', marginRight: '8px', verticalAlign: 'text-bottom'}} />
+          Luyện tập
+        </button>
       </div>
 
       <main>
@@ -95,7 +197,7 @@ function App() {
                     <h3 className="card-title">{item.topic}</h3>
                     <p style={{marginBottom: '1rem', fontWeight: 500, color: 'var(--primary-dark)'}}>Mục tiêu: {item.focus}</p>
                     <div className="task-box">
-                      <p>Xem chi tiết bài học</p>
+                      <p>Xem chi tiết bài học →</p>
                     </div>
                   </div>
                 </div>
@@ -118,13 +220,17 @@ function App() {
                     <h3 className="card-title">{item.topic}</h3>
                     <p style={{marginBottom: '1rem', fontWeight: 500, color: 'var(--primary-dark)'}}>Mục tiêu: {item.focus}</p>
                     <div className="task-box">
-                      <p>Xem chi tiết bài học</p>
+                      <p>Xem chi tiết bài học →</p>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
+        )}
+
+        {activeTab === 'practice' && data.practice_tests && data.practice_tests.length > 0 && (
+          <PracticeTest test={data.practice_tests[0]} />
         )}
       </main>
 

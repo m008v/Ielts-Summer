@@ -1,307 +1,1082 @@
 {
   "challenge_60_days": [
-    { "day": 1, "topic": "Diagnostic and bảng lỗi", "task": "Write 10 personal errors" },
-    { "day": 2, "topic": "Sentence basics", "task": "20 accurate sentences" },
-    { "day": 3, "topic": "Part 1 speaking", "task": "8 answers recorded" },
-    { "day": 4, "topic": "Reading skimming", "task": "5 paragraph headings" },
-    { "day": 5, "topic": "Writing paragraph", "task": "1 body paragraph" },
-    { "day": 6, "topic": "Vocabulary chunks", "task": "15 phrase cards" },
-    { "day": 7, "topic": "Weekly review", "task": "1 reflection note" },
-    { "day": 8, "topic": "Articles", "task": "30 corrected sentences" },
-    { "day": 9, "topic": "Tenses in stories", "task": "1 past story bản ghi âm" },
-    { "day": 10, "topic": "Countable nouns", "task": "20 noun corrections" },
-    { "day": 11, "topic": "Prepositions", "task": "15 collocation sentences" },
-    { "day": 12, "topic": "Reading T/F/ng", "task": "12-question set" },
-    { "day": 13, "topic": "Speaking final sounds", "task": "5-minute drill bản ghi âm" },
-    { "day": 14, "topic": "Week 2 checkpoint", "task": "grammar mini test" },
-    { "day": 15, "topic": "Word families", "task": "10 families" },
-    { "day": 16, "topic": "Education topic", "task": "1 paragraph + 5 speaking answers" },
-    { "day": 17, "topic": "Technology topic", "task": "12 phrases + 1 Part 3 answer" },
-    { "day": 18, "topic": "Environment topic", "task": "1 problem-solution outline" },
-    { "day": 19, "topic": "Collocation surgery", "task": "fix 15 unnatural phrases" },
-    { "day": 20, "topic": "Reading paraphrase", "task": "20 paraphrase pairs" },
-    { "day": 21, "topic": "Week 3 review", "task": "phrase bank audit" },
-    { "day": 22, "topic": "Scanning", "task": "find evidence lines" },
-    { "day": 23, "topic": "Matching headings", "task": "1 passage review" },
-    { "day": 24, "topic": "Matching information", "task": "question type log" },
-    { "day": 25, "topic": "Sentence completion", "task": "word limit practice" },
-    { "day": 26, "topic": "Reading mini test", "task": "20-30 questions" },
-    { "day": 27, "topic": "Reading journal", "task": "1 full entry" },
-    { "day": 28, "topic": "Week 4 checkpoint", "task": "accuracy + reflection" },
-    { "day": 29, "topic": "Task 2 thesis", "task": "10 thesis statements" },
-    { "day": 30, "topic": "Topic sentences", "task": "12 stronger topic sentences" },
-    { "day": 31, "topic": "how-why-so what", "task": "3 idea chains" },
-    { "day": 32, "topic": "Examples", "task": "upgrade 5 weak examples" },
-    { "day": 33, "topic": "Cohesion", "task": "viết lại 1 paragraph" },
-    { "day": 34, "topic": "Bấm giờ paragraph", "task": "2 x 15-minute paragraphs" },
-    { "day": 35, "topic": "Week 5 review", "task": "1 polished paragraph" },
-    { "day": 36, "topic": "Part 2 story bank", "task": "3 story skeletons" },
-    { "day": 37, "topic": "1-minute planning", "task": "5 cue cards planned" },
-    { "day": 38, "topic": "Part 2 bản ghi âm", "task": "2-minute answer" },
-    { "day": 39, "topic": "Part 3 layers", "task": "5 layered answers" },
-    { "day": 40, "topic": "Pronunciation rhythm", "task": "2-minute shadowing" },
-    { "day": 41, "topic": "Speaking bài mô phỏng", "task": "full bài mô phỏng nhỏ" },
-    { "day": 42, "topic": "Week 6 checkpoint", "task": "transcript correction" },
-    { "day": 43, "topic": "Task 1 overview", "task": "8 overview sentences" },
-    { "day": 44, "topic": "Trend language", "task": "20 data sentences" },
-    { "day": 45, "topic": "Comparison grammar", "task": "15 comparison sentences" },
-    { "day": 46, "topic": "Nền tảng Map/Process", "task": "1 outline Map/Process" },
-    { "day": 47, "topic": "Task 2 planning", "task": "5 essay plans" },
-    { "day": 48, "topic": "Bấm giờ Task 1", "task": "1 report in 20 minutes" },
-    { "day": 49, "topic": "Week 7 review", "task": "overview viết lại" },
-    { "day": 50, "topic": "Reading bài mô phỏng", "task": "full/partial bấm giờ test" },
-    { "day": 51, "topic": "Writing bài mô phỏng", "task": "Task 2 bấm giờ" },
-    { "day": 52, "topic": "Speaking bài mô phỏng", "task": "full bản ghi âm" },
-    { "day": 53, "topic": "Nhận xét day", "task": "top 5 errors" },
-    { "day": 54, "topic": "Viết lại day", "task": "1 essay viết lại" },
-    { "day": 55, "topic": "Vocabulary consolidation", "task": "review 150 phrases" },
-    { "day": 56, "topic": "Week 8 reset", "task": "sleep + light review" },
-    { "day": 57, "topic": "Final Reading", "task": "score + error log" },
-    { "day": 58, "topic": "Final Writing", "task": "essay + self-score" },
-    { "day": 59, "topic": "Final Speaking", "task": "full speaking test" },
-    { "day": 60, "topic": "Hồ sơ học tập", "task": "submit final folder" }
+    {
+      "day": 1,
+      "topic": "Diagnostic and bảng lỗi",
+      "task": "Write 10 personal errors"
+    },
+    {
+      "day": 2,
+      "topic": "Sentence basics",
+      "task": "20 accurate sentences"
+    },
+    {
+      "day": 3,
+      "topic": "Part 1 speaking",
+      "task": "8 answers recorded"
+    },
+    {
+      "day": 4,
+      "topic": "Reading skimming",
+      "task": "5 paragraph headings"
+    },
+    {
+      "day": 5,
+      "topic": "Writing paragraph",
+      "task": "1 body paragraph"
+    },
+    {
+      "day": 6,
+      "topic": "Vocabulary chunks",
+      "task": "15 phrase cards"
+    },
+    {
+      "day": 7,
+      "topic": "Weekly review",
+      "task": "1 reflection note"
+    },
+    {
+      "day": 8,
+      "topic": "Articles",
+      "task": "30 corrected sentences"
+    },
+    {
+      "day": 9,
+      "topic": "Tenses in stories",
+      "task": "1 past story bản ghi âm"
+    },
+    {
+      "day": 10,
+      "topic": "Countable nouns",
+      "task": "20 noun corrections"
+    },
+    {
+      "day": 11,
+      "topic": "Prepositions",
+      "task": "15 collocation sentences"
+    },
+    {
+      "day": 12,
+      "topic": "Reading T/F/ng",
+      "task": "12-question set"
+    },
+    {
+      "day": 13,
+      "topic": "Speaking final sounds",
+      "task": "5-minute drill bản ghi âm"
+    },
+    {
+      "day": 14,
+      "topic": "Week 2 checkpoint",
+      "task": "grammar mini test"
+    },
+    {
+      "day": 15,
+      "topic": "Word families",
+      "task": "10 families"
+    },
+    {
+      "day": 16,
+      "topic": "Education topic",
+      "task": "1 paragraph + 5 speaking answers"
+    },
+    {
+      "day": 17,
+      "topic": "Technology topic",
+      "task": "12 phrases + 1 Part 3 answer"
+    },
+    {
+      "day": 18,
+      "topic": "Environment topic",
+      "task": "1 problem-solution outline"
+    },
+    {
+      "day": 19,
+      "topic": "Collocation surgery",
+      "task": "fix 15 unnatural phrases"
+    },
+    {
+      "day": 20,
+      "topic": "Reading paraphrase",
+      "task": "20 paraphrase pairs"
+    },
+    {
+      "day": 21,
+      "topic": "Week 3 review",
+      "task": "phrase bank audit"
+    },
+    {
+      "day": 22,
+      "topic": "Scanning",
+      "task": "find evidence lines"
+    },
+    {
+      "day": 23,
+      "topic": "Matching headings",
+      "task": "1 passage review"
+    },
+    {
+      "day": 24,
+      "topic": "Matching information",
+      "task": "question type log"
+    },
+    {
+      "day": 25,
+      "topic": "Sentence completion",
+      "task": "word limit practice"
+    },
+    {
+      "day": 26,
+      "topic": "Reading mini test",
+      "task": "20-30 questions"
+    },
+    {
+      "day": 27,
+      "topic": "Reading journal",
+      "task": "1 full entry"
+    },
+    {
+      "day": 28,
+      "topic": "Week 4 checkpoint",
+      "task": "accuracy + reflection"
+    },
+    {
+      "day": 29,
+      "topic": "Task 2 thesis",
+      "task": "10 thesis statements"
+    },
+    {
+      "day": 30,
+      "topic": "Topic sentences",
+      "task": "12 stronger topic sentences"
+    },
+    {
+      "day": 31,
+      "topic": "how-why-so what",
+      "task": "3 idea chains"
+    },
+    {
+      "day": 32,
+      "topic": "Examples",
+      "task": "upgrade 5 weak examples"
+    },
+    {
+      "day": 33,
+      "topic": "Cohesion",
+      "task": "viết lại 1 paragraph"
+    },
+    {
+      "day": 34,
+      "topic": "Bấm giờ paragraph",
+      "task": "2 x 15-minute paragraphs"
+    },
+    {
+      "day": 35,
+      "topic": "Week 5 review",
+      "task": "1 polished paragraph"
+    },
+    {
+      "day": 36,
+      "topic": "Part 2 story bank",
+      "task": "3 story skeletons"
+    },
+    {
+      "day": 37,
+      "topic": "1-minute planning",
+      "task": "5 cue cards planned"
+    },
+    {
+      "day": 38,
+      "topic": "Part 2 bản ghi âm",
+      "task": "2-minute answer"
+    },
+    {
+      "day": 39,
+      "topic": "Part 3 layers",
+      "task": "5 layered answers"
+    },
+    {
+      "day": 40,
+      "topic": "Pronunciation rhythm",
+      "task": "2-minute shadowing"
+    },
+    {
+      "day": 41,
+      "topic": "Speaking bài mô phỏng",
+      "task": "full bài mô phỏng nhỏ"
+    },
+    {
+      "day": 42,
+      "topic": "Week 6 checkpoint",
+      "task": "transcript correction"
+    },
+    {
+      "day": 43,
+      "topic": "Task 1 overview",
+      "task": "8 overview sentences"
+    },
+    {
+      "day": 44,
+      "topic": "Trend language",
+      "task": "20 data sentences"
+    },
+    {
+      "day": 45,
+      "topic": "Comparison grammar",
+      "task": "15 comparison sentences"
+    },
+    {
+      "day": 46,
+      "topic": "Nền tảng Map/Process",
+      "task": "1 outline Map/Process"
+    },
+    {
+      "day": 47,
+      "topic": "Task 2 planning",
+      "task": "5 essay plans"
+    },
+    {
+      "day": 48,
+      "topic": "Bấm giờ Task 1",
+      "task": "1 report in 20 minutes"
+    },
+    {
+      "day": 49,
+      "topic": "Week 7 review",
+      "task": "overview viết lại"
+    },
+    {
+      "day": 50,
+      "topic": "Reading bài mô phỏng",
+      "task": "full/partial bấm giờ test"
+    },
+    {
+      "day": 51,
+      "topic": "Writing bài mô phỏng",
+      "task": "Task 2 bấm giờ"
+    },
+    {
+      "day": 52,
+      "topic": "Speaking bài mô phỏng",
+      "task": "full bản ghi âm"
+    },
+    {
+      "day": 53,
+      "topic": "Nhận xét day",
+      "task": "top 5 errors"
+    },
+    {
+      "day": 54,
+      "topic": "Viết lại day",
+      "task": "1 essay viết lại"
+    },
+    {
+      "day": 55,
+      "topic": "Vocabulary consolidation",
+      "task": "review 150 phrases"
+    },
+    {
+      "day": 56,
+      "topic": "Week 8 reset",
+      "task": "sleep + light review"
+    },
+    {
+      "day": 57,
+      "topic": "Final Reading",
+      "task": "score + error log"
+    },
+    {
+      "day": 58,
+      "topic": "Final Writing",
+      "task": "essay + self-score"
+    },
+    {
+      "day": 59,
+      "topic": "Final Speaking",
+      "task": "full speaking test"
+    },
+    {
+      "day": 60,
+      "topic": "Hồ sơ học tập",
+      "task": "submit final folder"
+    }
   ],
   "route_a": [
-    { 
-      "week": 1, 
-      "topic": "Khởi động lại nền tiếng Anh", 
+    {
+      "week": 1,
+      "topic": "Khởi động lại nền tiếng Anh",
       "focus": "kiểm soát câu, thói quen nói hằng ngày, đọc lấy ý chính",
       "checkpoint": "Viết 1 đoạn 120-150 từ; nói 45 giây về bản thân; đọc 1 bài ngắn và hiểu khoảng 60%",
       "daily_plan": [
-        { "day": 1, "task": "Bài chẩn đoán và bảng lỗi", "detail": "Làm bài chẩn đoán, ghi 10 lỗi đầu tiên." },
-        { "day": 2, "task": "Khung câu cơ bản", "detail": "S + V + O; S + be + adj/noun; because/although/while." },
-        { "day": 3, "task": "Reading bình tĩnh", "detail": "Đọc 1 bài ngắn, gạch topic sentence, đoán ý đoạn trước khi tra từ." },
-        { "day": 4, "task": "Câu trả lời đời sống", "detail": "Trả lời 8 câu Part 1, mỗi câu 2-3 câu nhỏ." },
-        { "day": 5, "task": "Mầm đoạn văn", "detail": "Viết 1 đoạn: claim + because + example + result." },
-        { "day": 6, "task": "Mốc kiểm tra nhỏ", "detail": "Nghe lại bản ghi âm, đánh dấu 5 câu viết đúng và 5 lỗi cần sửa." },
-        { "day": 7, "task": "Rà lại nhẹ", "detail": "Ôn 30 cụm từ, viết lại đoạn văn rõ hơn." }
+        {
+          "day": 1,
+          "task": "Bài chẩn đoán và bảng lỗi",
+          "detail": "Làm bài chẩn đoán, ghi 10 lỗi đầu tiên."
+        },
+        {
+          "day": 2,
+          "task": "Khung câu cơ bản",
+          "detail": "S + V + O; S + be + adj/noun; because/although/while."
+        },
+        {
+          "day": 3,
+          "task": "Reading bình tĩnh",
+          "detail": "Đọc 1 bài ngắn, gạch topic sentence, đoán ý đoạn trước khi tra từ."
+        },
+        {
+          "day": 4,
+          "task": "Câu trả lời đời sống",
+          "detail": "Trả lời 8 câu Part 1, mỗi câu 2-3 câu nhỏ."
+        },
+        {
+          "day": 5,
+          "task": "Mầm đoạn văn",
+          "detail": "Viết 1 đoạn: claim + because + example + result."
+        },
+        {
+          "day": 6,
+          "task": "Mốc kiểm tra nhỏ",
+          "detail": "Nghe lại bản ghi âm, đánh dấu 5 câu viết đúng và 5 lỗi cần sửa."
+        },
+        {
+          "day": 7,
+          "task": "Rà lại nhẹ",
+          "detail": "Ôn 30 cụm từ, viết lại đoạn văn rõ hơn."
+        }
       ]
     },
-    { 
-      "week": 2, 
-      "topic": "Câu đúng trước câu hay", 
+    {
+      "week": 2,
+      "topic": "Câu đúng trước câu hay",
       "focus": "thì, article, hòa hợp chủ ngữ-động từ, câu phức đơn giản",
       "checkpoint": "Sửa được 5 lỗi grammar cá nhân; nói Part 1 dài 2-3 câu",
       "daily_plan": [
-        { "day": 1, "task": "Bản đồ thì", "detail": "Viết 10 câu present, 10 câu past, 10 câu future; nói lý do chọn thì." },
-        { "day": 2, "task": "Articles", "detail": "a/an/the/zero article qua ví dụ: school, university, government." },
-        { "day": 3, "task": "Hòa hợp chủ ngữ-động từ", "detail": "Sửa 30 câu sai kiểu people is, government have." },
-        { "day": 4, "task": "Countable/uncountable", "detail": "information, advice, knowledge, equipment, traffic, pollution." },
-        { "day": 5, "task": "Prepositions", "detail": "interested in, responsible for, depend on, impact on, access to." },
-        { "day": 6, "task": "Speaking có kiểm soát", "detail": "Nói Part 1 nhưng bắt buộc dùng past/present/future đúng." },
-        { "day": 7, "task": "Mốc kiểm tra", "detail": "Viết đoạn 160 từ; tự đánh dấu 10 lựa chọn grammar." }
+        {
+          "day": 1,
+          "task": "Bản đồ thì",
+          "detail": "Viết 10 câu present, 10 câu past, 10 câu future; nói lý do chọn thì."
+        },
+        {
+          "day": 2,
+          "task": "Articles",
+          "detail": "a/an/the/zero article qua ví dụ: school, university, government."
+        },
+        {
+          "day": 3,
+          "task": "Hòa hợp chủ ngữ-động từ",
+          "detail": "Sửa 30 câu sai kiểu people is, government have."
+        },
+        {
+          "day": 4,
+          "task": "Countable/uncountable",
+          "detail": "information, advice, knowledge, equipment, traffic, pollution."
+        },
+        {
+          "day": 5,
+          "task": "Prepositions",
+          "detail": "interested in, responsible for, depend on, impact on, access to."
+        },
+        {
+          "day": 6,
+          "task": "Speaking có kiểm soát",
+          "detail": "Nói Part 1 nhưng bắt buộc dùng past/present/future đúng."
+        },
+        {
+          "day": 7,
+          "task": "Mốc kiểm tra",
+          "detail": "Viết đoạn 160 từ; tự đánh dấu 10 lựa chọn grammar."
+        }
       ]
     },
-    { 
-      "week": 3, 
-      "topic": "Học từ theo cụm", 
+    {
+      "week": 3,
+      "topic": "Học từ theo cụm",
       "focus": "collocation, họ từ, cụm theo chủ đề",
       "checkpoint": "Tạo 80 thẻ cụm từ dùng được; viết 2 body paragraph",
       "daily_plan": [
-        { "day": 1, "task": "Họ từ", "detail": "educate -> education -> educational -> educator; áp dụng với 5 họ từ." },
-        { "day": 2, "task": "Verb-noun collocations", "detail": "make progress, gain experience, pose a threat, address a problem." },
-        { "day": 3, "task": "Cụm tính từ-danh từ", "detail": "a demanding job, a practical skill, a long-term solution." },
-        { "day": 4, "task": "Cụm Speaking tự nhiên", "detail": "I'd say..., what I mean is..., to be fair..., it depends on..." },
-        { "day": 5, "task": "Đoạn từ vựng", "detail": "Viết đoạn 160 từ dùng 8 cụm mới nhưng không nhồi." },
-        { "day": 6, "task": "Dùng lại trong Speaking", "detail": "Dùng cùng nhóm cụm trong 6 câu Part 1/Part 3." },
-        { "day": 7, "task": "Rà lại", "detail": "Ôn flashcard và sửa 10 collocation sai." }
+        {
+          "day": 1,
+          "task": "Họ từ",
+          "detail": "educate -> education -> educational -> educator; áp dụng với 5 họ từ."
+        },
+        {
+          "day": 2,
+          "task": "Verb-noun collocations",
+          "detail": "make progress, gain experience, pose a threat, address a problem."
+        },
+        {
+          "day": 3,
+          "task": "Cụm tính từ-danh từ",
+          "detail": "a demanding job, a practical skill, a long-term solution."
+        },
+        {
+          "day": 4,
+          "task": "Cụm Speaking tự nhiên",
+          "detail": "I'd say..., what I mean is..., to be fair..., it depends on..."
+        },
+        {
+          "day": 5,
+          "task": "Đoạn từ vựng",
+          "detail": "Viết đoạn 160 từ dùng 8 cụm mới nhưng không nhồi."
+        },
+        {
+          "day": 6,
+          "task": "Dùng lại trong Speaking",
+          "detail": "Dùng cùng nhóm cụm trong 6 câu Part 1/Part 3."
+        },
+        {
+          "day": 7,
+          "task": "Rà lại",
+          "detail": "Ôn flashcard và sửa 10 collocation sai."
+        }
       ]
     },
-    { 
-      "week": 4, 
-      "topic": "Định vị trước, đọc kỹ sau", 
+    {
+      "week": 4,
+      "topic": "Định vị trước, đọc kỹ sau",
       "focus": "skimming, scanning, keyword và nền tảng T/F/NG",
       "checkpoint": "Làm bài Reading nhỏ 20 câu đạt 11-14+; giải thích được bẫy",
       "daily_plan": [
-        { "day": 1, "task": "Skimming", "detail": "Đọc 5 đoạn, đặt tiêu đề 5-7 từ cho mỗi đoạn." },
-        { "day": 2, "task": "Scanning", "detail": "Tìm tên riêng, số liệu, năm, thuật ngữ; không đọc hết." },
-        { "day": 3, "task": "Keyword và paraphrase", "detail": "Gạch keyword trong câu hỏi, tìm paraphrase trong passage." },
-        { "day": 4, "task": "True/False/Not Given", "detail": "Học luật: True = khớp; False = trái; ng = không nói." },
-        { "day": 5, "task": "Sentence completion", "detail": "Đọc instruction, giữ nguyên word form từ passage." },
-        { "day": 6, "task": "Bài kiểm tra nhỏ", "detail": "Làm 20 câu trong 30 phút, sau đó phân loại lỗi." },
-        { "day": 7, "task": "Nhật ký Reading", "detail": "Ghi 10 cặp paraphrase." }
+        {
+          "day": 1,
+          "task": "Skimming",
+          "detail": "Đọc 5 đoạn, đặt tiêu đề 5-7 từ cho mỗi đoạn."
+        },
+        {
+          "day": 2,
+          "task": "Scanning",
+          "detail": "Tìm tên riêng, số liệu, năm, thuật ngữ; không đọc hết."
+        },
+        {
+          "day": 3,
+          "task": "Keyword và paraphrase",
+          "detail": "Gạch keyword trong câu hỏi, tìm paraphrase trong passage."
+        },
+        {
+          "day": 4,
+          "task": "True/False/Not Given",
+          "detail": "Học luật: True = khớp; False = trái; ng = không nói."
+        },
+        {
+          "day": 5,
+          "task": "Sentence completion",
+          "detail": "Đọc instruction, giữ nguyên word form từ passage."
+        },
+        {
+          "day": 6,
+          "task": "Bài kiểm tra nhỏ",
+          "detail": "Làm 20 câu trong 30 phút, sau đó phân loại lỗi."
+        },
+        {
+          "day": 7,
+          "task": "Nhật ký Reading",
+          "detail": "Ghi 10 cặp paraphrase."
+        }
       ]
     },
-    { 
-      "week": 5, 
-      "topic": "Đoạn Writing có đường ý", 
+    {
+      "week": 5,
+      "topic": "Đoạn Writing có đường ý",
       "focus": "topic sentence, explanation, example và result",
       "checkpoint": "Viết 4 body paragraph; giảm câu lặp và ý mỏng",
       "daily_plan": [
-        { "day": 1, "task": "Topic sentence", "detail": "Viết 12 topic sentences không chung chung." },
-        { "day": 2, "task": "Explanation", "detail": "Mỗi claim phải trả lời how hoặc why." },
-        { "day": 3, "task": "Examples", "detail": "Ví dụ không cần bịa số liệu; dùng tình huống hợp lý." },
-        { "day": 4, "task": "Result sentence", "detail": "Kết nối ý với tác động thực tế." },
-        { "day": 5, "task": "Cohesion", "detail": "Dùng this/these/such/which để nối tự nhiên." },
-        { "day": 6, "task": "Viết đoạn nhanh", "detail": "Viết 2 đoạn, mỗi đoạn 15 phút." },
-        { "day": 7, "task": "Viết lại", "detail": "Chọn 1 đoạn và viết lại sâu: ý, grammar và vocabulary." }
+        {
+          "day": 1,
+          "task": "Topic sentence",
+          "detail": "Viết 12 topic sentences không chung chung."
+        },
+        {
+          "day": 2,
+          "task": "Explanation",
+          "detail": "Mỗi claim phải trả lời how hoặc why."
+        },
+        {
+          "day": 3,
+          "task": "Examples",
+          "detail": "Ví dụ không cần bịa số liệu; dùng tình huống hợp lý."
+        },
+        {
+          "day": 4,
+          "task": "Result sentence",
+          "detail": "Kết nối ý với tác động thực tế."
+        },
+        {
+          "day": 5,
+          "task": "Cohesion",
+          "detail": "Dùng this/these/such/which để nối tự nhiên."
+        },
+        {
+          "day": 6,
+          "task": "Viết đoạn nhanh",
+          "detail": "Viết 2 đoạn, mỗi đoạn 15 phút."
+        },
+        {
+          "day": 7,
+          "task": "Viết lại",
+          "detail": "Chọn 1 đoạn và viết lại sâu: ý, grammar và vocabulary."
+        }
       ]
     },
-    { 
-      "week": 6, 
-      "topic": "Ngân hàng câu chuyện Speaking", 
+    {
+      "week": 6,
+      "topic": "Ngân hàng câu chuyện Speaking",
       "focus": "mở rộng Part 1, khung câu chuyện Part 2, âm cuối",
       "checkpoint": "Nói Part 2 trong 90 giây; không dừng quá 4 giây",
       "daily_plan": [
-        { "day": 1, "task": "Mở rộng Part 1", "detail": "Answer + reason + tiny example. Tránh trả lời một chữ rồi dừng." },
-        { "day": 2, "task": "Khung câu chuyện Part 2", "detail": "Past context -> moment -> details -> feeling -> reflection." },
-        { "day": 3, "task": "Lập kế hoạch 1 phút", "detail": "Ghi 5 keyword, không viết cả câu." },
-        { "day": 4, "task": "Pronunciation finals", "detail": "Luyện /t d k g p s z/ ở cuối từ." },
-        { "day": 5, "task": "Intonation", "detail": "Nói theo chunk, lên xuống giọng tự nhiên." },
-        { "day": 6, "task": "Bài mô phỏng Speaking nhỏ", "detail": "Part 1 + Part 2 90 giây + 2 câu Part 3." },
-        { "day": 7, "task": "Nhận xét", "detail": "Nghe lại, chép 60 giây bài nói, sửa grammar/vocabulary." }
+        {
+          "day": 1,
+          "task": "Mở rộng Part 1",
+          "detail": "Answer + reason + tiny example. Tránh trả lời một chữ rồi dừng."
+        },
+        {
+          "day": 2,
+          "task": "Khung câu chuyện Part 2",
+          "detail": "Past context -> moment -> details -> feeling -> reflection."
+        },
+        {
+          "day": 3,
+          "task": "Lập kế hoạch 1 phút",
+          "detail": "Ghi 5 keyword, không viết cả câu."
+        },
+        {
+          "day": 4,
+          "task": "Pronunciation finals",
+          "detail": "Luyện /t d k g p s z/ ở cuối từ."
+        },
+        {
+          "day": 5,
+          "task": "Intonation",
+          "detail": "Nói theo chunk, lên xuống giọng tự nhiên."
+        },
+        {
+          "day": 6,
+          "task": "Bài mô phỏng Speaking nhỏ",
+          "detail": "Part 1 + Part 2 90 giây + 2 câu Part 3."
+        },
+        {
+          "day": 7,
+          "task": "Nhận xét",
+          "detail": "Nghe lại, chép 60 giây bài nói, sửa grammar/vocabulary."
+        }
       ]
     },
-    { 
-      "week": 7, 
-      "topic": "Nền tảng Task 1 và Task 2", 
+    {
+      "week": 7,
+      "topic": "Nền tảng Task 1 và Task 2",
       "focus": "Overview, comparison, cấu trúc essay và lập kế hoạch",
       "checkpoint": "Viết Task 1 cơ bản và outline Task 2 trong thời gian giới hạn",
       "daily_plan": [
-        { "day": 1, "task": "Task 1 overview", "detail": "Tìm 2 main features trước khi viết câu nào." },
-        { "day": 2, "task": "Trend language", "detail": "increase/decline/fluctuate/remain stable/peak at." },
-        { "day": 3, "task": "Comparisons", "detail": "higher than, twice as high as, the gap widened." },
-        { "day": 4, "task": "Task 2 planning", "detail": "Đọc đề, xác định question type và position." },
-        { "day": 5, "task": "Intro + conclusion", "detail": "Viết ngắn, rõ, không lạc đề." },
-        { "day": 6, "task": "Luyện bấm giờ", "detail": "Task 1 20 phút và lập kế hoạch Task 2 trong 8 phút." },
-        { "day": 7, "task": "Rà lại", "detail": "Sửa Overview và topic sentence." }
+        {
+          "day": 1,
+          "task": "Task 1 overview",
+          "detail": "Tìm 2 main features trước khi viết câu nào."
+        },
+        {
+          "day": 2,
+          "task": "Trend language",
+          "detail": "increase/decline/fluctuate/remain stable/peak at."
+        },
+        {
+          "day": 3,
+          "task": "Comparisons",
+          "detail": "higher than, twice as high as, the gap widened."
+        },
+        {
+          "day": 4,
+          "task": "Task 2 planning",
+          "detail": "Đọc đề, xác định question type và position."
+        },
+        {
+          "day": 5,
+          "task": "Intro + conclusion",
+          "detail": "Viết ngắn, rõ, không lạc đề."
+        },
+        {
+          "day": 6,
+          "task": "Luyện bấm giờ",
+          "detail": "Task 1 20 phút và lập kế hoạch Task 2 trong 8 phút."
+        },
+        {
+          "day": 7,
+          "task": "Rà lại",
+          "detail": "Sửa Overview và topic sentence."
+        }
       ]
     },
-    { 
-      "week": 8, 
-      "topic": "Tuần mô phỏng bài thi", 
+    {
+      "week": 8,
+      "topic": "Tuần mô phỏng bài thi",
       "focus": "bài mô phỏng Reading/Writing/Speaking, rà lỗi",
       "checkpoint": "Hoàn thành 1 bài mô phỏng nhỏ và hồ sơ học tập 8 tuần",
       "daily_plan": [
-        { "day": 1, "task": "Rà lại bảng lỗi", "detail": "Chọn 5 lỗi đã giảm và 5 lỗi còn dai." },
-        { "day": 2, "task": "Reading bài mô phỏng nhỏ", "detail": "40 câu hoặc 30 câu tùy trình độ; phân loại lỗi." },
-        { "day": 3, "task": "Writing bấm giờ", "detail": "Task 2 40 phút hoặc 1 phần essay." },
-        { "day": 4, "task": "Speaking bài mô phỏng", "detail": "Ghi âm bài nói 11-14 phút." },
-        { "day": 5, "task": "Ngày viết lại", "detail": "Viết lại 1 paragraph và sửa 1 phút transcript." },
-        { "day": 6, "task": "Hồ sơ học tập", "detail": "Gom bài tốt nhất, lỗi, ngân hàng cụm từ và mục tiêu kế tiếp." },
-        { "day": 7, "task": "Tổng kết và kế hoạch", "detail": "Tự viết thư cho bản thân: mình đã tiến bộ ở đâu?" }
+        {
+          "day": 1,
+          "task": "Rà lại bảng lỗi",
+          "detail": "Chọn 5 lỗi đã giảm và 5 lỗi còn dai."
+        },
+        {
+          "day": 2,
+          "task": "Reading bài mô phỏng nhỏ",
+          "detail": "40 câu hoặc 30 câu tùy trình độ; phân loại lỗi."
+        },
+        {
+          "day": 3,
+          "task": "Writing bấm giờ",
+          "detail": "Task 2 40 phút hoặc 1 phần essay."
+        },
+        {
+          "day": 4,
+          "task": "Speaking bài mô phỏng",
+          "detail": "Ghi âm bài nói 11-14 phút."
+        },
+        {
+          "day": 5,
+          "task": "Ngày viết lại",
+          "detail": "Viết lại 1 paragraph và sửa 1 phút transcript."
+        },
+        {
+          "day": 6,
+          "task": "Hồ sơ học tập",
+          "detail": "Gom bài tốt nhất, lỗi, ngân hàng cụm từ và mục tiêu kế tiếp."
+        },
+        {
+          "day": 7,
+          "task": "Tổng kết và kế hoạch",
+          "detail": "Tự viết thư cho bản thân: mình đã tiến bộ ở đâu?"
+        }
       ]
     }
   ],
   "route_b": [
-    { 
-      "week": 1, 
-      "topic": "Trần band 6: tìm lý do bị kẹt", 
+    {
+      "week": 1,
+      "topic": "Trần band 6: tìm lý do bị kẹt",
       "focus": "chẩn đoán theo tiêu chí, độ sâu chủ đề, bảng lỗi cần nâng cấp",
       "checkpoint": "Biết 3 lỗi kéo band; viết lại 1 đoạn essay chuẩn hơn",
       "daily_plan": [
-        { "day": 1, "task": "Rà tiêu chí", "detail": "Chấm 1 essay cũ theo 4 tiêu chí; khoanh tiêu chí yếu nhất." },
-        { "day": 2, "task": "Rà Speaking", "detail": "Ghi âm Part 2 và Part 3, đánh dấu pause, repetition." },
-        { "day": 3, "task": "Rà Reading", "detail": "Làm 1 passage; phân loại lỗi theo question type." },
-        { "day": 4, "task": "Rà từ vựng", "detail": "Tìm 20 cụm từ nghe dịch từ tiếng Việt trong bài viết." },
-        { "day": 5, "task": "Rà grammar", "detail": "Tìm lỗi article, agreement, punctuation và sentence boundaries." },
-        { "day": 6, "task": "Viết lại nhanh", "detail": "Viết lại 1 body paragraph với ý sâu hơn." },
-        { "day": 7, "task": "Kế hoạch cá nhân", "detail": "Chọn 3 lỗi ưu tiên cho 7 tuần còn lại." }
+        {
+          "day": 1,
+          "task": "Rà tiêu chí",
+          "detail": "Chấm 1 essay cũ theo 4 tiêu chí; khoanh tiêu chí yếu nhất."
+        },
+        {
+          "day": 2,
+          "task": "Rà Speaking",
+          "detail": "Ghi âm Part 2 và Part 3, đánh dấu pause, repetition."
+        },
+        {
+          "day": 3,
+          "task": "Rà Reading",
+          "detail": "Làm 1 passage; phân loại lỗi theo question type."
+        },
+        {
+          "day": 4,
+          "task": "Rà từ vựng",
+          "detail": "Tìm 20 cụm từ nghe dịch từ tiếng Việt trong bài viết."
+        },
+        {
+          "day": 5,
+          "task": "Rà grammar",
+          "detail": "Tìm lỗi article, agreement, punctuation và sentence boundaries."
+        },
+        {
+          "day": 6,
+          "task": "Viết lại nhanh",
+          "detail": "Viết lại 1 body paragraph với ý sâu hơn."
+        },
+        {
+          "day": 7,
+          "task": "Kế hoạch cá nhân",
+          "detail": "Chọn 3 lỗi ưu tiên cho 7 tuần còn lại."
+        }
       ]
     },
-    { 
-      "week": 2, 
-      "topic": "Reading nâng cao", 
+    {
+      "week": 2,
+      "topic": "Reading nâng cao",
       "focus": "đọc cấu trúc lập luận, mục đích tác giả, vai trò đoạn",
       "checkpoint": "Tăng độ chính xác dạng Headings/Information; đọc bớt dịch",
       "daily_plan": [
-        { "day": 1, "task": "Vai trò đoạn", "detail": "Mỗi đoạn trả lời: claim, evidence, contrast, example hay conclusion?" },
-        { "day": 2, "task": "Matching Headings", "detail": "Loại heading quá rộng/quá hẹp; tìm chuyển động chính của đoạn." },
-        { "day": 3, "task": "Matching Information", "detail": "Scan examples, names, comparisons; tránh đọc tuần tự quá lâu." },
-        { "day": 4, "task": "T/F/NG nâng cao", "detail": "Phân biệt opposite, extreme language và missing comparison." },
-        { "day": 5, "task": "Mục đích tác giả", "detail": "Tìm thái độ qua verb, adjective và contrast marker." },
-        { "day": 6, "task": "Passage bấm giờ", "detail": "1 passage 20 phút, sau đó chữa 40 phút." },
-        { "day": 7, "task": "Bản đồ paraphrase", "detail": "Ghi 20 cặp: claim -> suggest, reduce -> decline." }
+        {
+          "day": 1,
+          "task": "Vai trò đoạn",
+          "detail": "Mỗi đoạn trả lời: claim, evidence, contrast, example hay conclusion?"
+        },
+        {
+          "day": 2,
+          "task": "Matching Headings",
+          "detail": "Loại heading quá rộng/quá hẹp; tìm chuyển động chính của đoạn."
+        },
+        {
+          "day": 3,
+          "task": "Matching Information",
+          "detail": "Scan examples, names, comparisons; tránh đọc tuần tự quá lâu."
+        },
+        {
+          "day": 4,
+          "task": "T/F/NG nâng cao",
+          "detail": "Phân biệt opposite, extreme language và missing comparison."
+        },
+        {
+          "day": 5,
+          "task": "Mục đích tác giả",
+          "detail": "Tìm thái độ qua verb, adjective và contrast marker."
+        },
+        {
+          "day": 6,
+          "task": "Passage bấm giờ",
+          "detail": "1 passage 20 phút, sau đó chữa 40 phút."
+        },
+        {
+          "day": 7,
+          "task": "Bản đồ paraphrase",
+          "detail": "Ghi 20 cặp: claim -> suggest, reduce -> decline."
+        }
       ]
     },
-    { 
-      "week": 3, 
-      "topic": "Writing Task 2: độ sâu lập luận", 
+    {
+      "week": 3,
+      "topic": "Writing Task 2: độ sâu lập luận",
       "focus": "position, concession, mechanism và ví dụ có sức chứng minh",
       "checkpoint": "Viết 2 essays có lập luận sâu hơn, không template lộ",
       "daily_plan": [
-        { "day": 1, "task": "Question type và position", "detail": "5 đề, mỗi đề viết 1 thesis có sắc thái rõ." },
-        { "day": 2, "task": "Mechanism", "detail": "Mỗi luận điểm phải có chuỗi cause -> process -> result." },
-        { "day": 3, "task": "Concession", "detail": "Viết 8 câu thừa nhận mặt ngược nhưng giữ position." },
-        { "day": 4, "task": "Chất lượng ví dụ", "detail": "Biến ví dụ chung thành tình huống cụ thể nhưng không bịa nghiên cứu." },
-        { "day": 5, "task": "Mạch đoạn văn", "detail": "Topic -> explain -> evidence -> implication -> link back." },
-        { "day": 6, "task": "Essay bấm giờ", "detail": "Viết essay trong 40 phút; tự kiểm tra trong 10 phút." },
-        { "day": 7, "task": "Viết lại sâu", "detail": "Viết lại 1 essay bằng cách thay ý yếu và chỉnh lại cách diễn đạt." }
+        {
+          "day": 1,
+          "task": "Question type và position",
+          "detail": "5 đề, mỗi đề viết 1 thesis có sắc thái rõ."
+        },
+        {
+          "day": 2,
+          "task": "Mechanism",
+          "detail": "Mỗi luận điểm phải có chuỗi cause -> process -> result."
+        },
+        {
+          "day": 3,
+          "task": "Concession",
+          "detail": "Viết 8 câu thừa nhận mặt ngược nhưng giữ position."
+        },
+        {
+          "day": 4,
+          "task": "Chất lượng ví dụ",
+          "detail": "Biến ví dụ chung thành tình huống cụ thể nhưng không bịa nghiên cứu."
+        },
+        {
+          "day": 5,
+          "task": "Mạch đoạn văn",
+          "detail": "Topic -> explain -> evidence -> implication -> link back."
+        },
+        {
+          "day": 6,
+          "task": "Essay bấm giờ",
+          "detail": "Viết essay trong 40 phút; tự kiểm tra trong 10 phút."
+        },
+        {
+          "day": 7,
+          "task": "Viết lại sâu",
+          "detail": "Viết lại 1 essay bằng cách thay ý yếu và chỉnh lại cách diễn đạt."
+        }
       ]
     },
-    { 
-      "week": 4, 
-      "topic": "Độ chính xác từ vựng", 
+    {
+      "week": 4,
+      "topic": "Độ chính xác từ vựng",
       "focus": "collocation, less common words, hedging và register",
       "checkpoint": "Sửa 30 lỗi word choice/collocation; tạo ngân hàng cụm từ theo chủ đề",
       "daily_plan": [
-        { "day": 1, "task": "Sửa collocation", "detail": "Sửa 30 collocation sai từ bài cũ." },
-        { "day": 2, "task": "Register", "detail": "Phân biệt spoken, neutral, academic: kids/children/young people." },
-        { "day": 3, "task": "Hedging", "detail": "likely, tend to, may, in many cases, to some extent." },
-        { "day": 4, "task": "Precision verbs", "detail": "cause, contribute to, exacerbate, address, undermine, facilitate." },
-        { "day": 5, "task": "Word choice contrast", "detail": "economic/economical, affect/effect, rise/raise, fewer/less." },
-        { "day": 6, "task": "Chuyển cụm sang kỹ năng khác", "detail": "Dùng ngân hàng cụm từ trong Speaking và Writing cùng ngày." },
-        { "day": 7, "task": "Rà lại từ vựng", "detail": "Tạo ngân hàng 10 chủ đề, mỗi chủ đề 12 cụm từ." }
+        {
+          "day": 1,
+          "task": "Sửa collocation",
+          "detail": "Sửa 30 collocation sai từ bài cũ."
+        },
+        {
+          "day": 2,
+          "task": "Register",
+          "detail": "Phân biệt spoken, neutral, academic: kids/children/young people."
+        },
+        {
+          "day": 3,
+          "task": "Hedging",
+          "detail": "likely, tend to, may, in many cases, to some extent."
+        },
+        {
+          "day": 4,
+          "task": "Precision verbs",
+          "detail": "cause, contribute to, exacerbate, address, undermine, facilitate."
+        },
+        {
+          "day": 5,
+          "task": "Word choice contrast",
+          "detail": "economic/economical, affect/effect, rise/raise, fewer/less."
+        },
+        {
+          "day": 6,
+          "task": "Chuyển cụm sang kỹ năng khác",
+          "detail": "Dùng ngân hàng cụm từ trong Speaking và Writing cùng ngày."
+        },
+        {
+          "day": 7,
+          "task": "Rà lại từ vựng",
+          "detail": "Tạo ngân hàng 10 chủ đề, mỗi chủ đề 12 cụm từ."
+        }
       ]
     },
-    { 
-      "week": 5, 
-      "topic": "Speaking Part 3 nâng cao", 
+    {
+      "week": 5,
+      "topic": "Speaking Part 3 nâng cao",
       "focus": "phân tích Part 3, sắc thái ý và nhịp phát âm",
       "checkpoint": "Trả lời Part 3 trong 45-60 giây, có tầng ý và ví dụ",
       "daily_plan": [
-        { "day": 1, "task": "Tầng ý Part 3", "detail": "Individual -> family -> school/work -> society -> government." },
-        { "day": 2, "task": "Khung câu trả lời", "detail": "Position -> reason -> example -> contrast -> closing thought." },
-        { "day": 3, "task": "Nuance", "detail": "Not always, in some cases, it depends on age/income/context." },
-        { "day": 4, "task": "Nhịp phát âm", "detail": "Chunking, stress content words và reduce function words." },
-        { "day": 5, "task": "Sửa fluency", "detail": "Luyện cách bắt đầu lại tự nhiên: What I mean is..., Let me put it this way...." },
-        { "day": 6, "task": "Bài mô phỏng Part 3", "detail": "10 câu hỏi, mỗi câu 45-60 giây." },
-        { "day": 7, "task": "Sửa transcript", "detail": "Chép lời 2 phút nói và nâng cấp 10 câu." }
+        {
+          "day": 1,
+          "task": "Tầng ý Part 3",
+          "detail": "Individual -> family -> school/work -> society -> government."
+        },
+        {
+          "day": 2,
+          "task": "Khung câu trả lời",
+          "detail": "Position -> reason -> example -> contrast -> closing thought."
+        },
+        {
+          "day": 3,
+          "task": "Nuance",
+          "detail": "Not always, in some cases, it depends on age/income/context."
+        },
+        {
+          "day": 4,
+          "task": "Nhịp phát âm",
+          "detail": "Chunking, stress content words và reduce function words."
+        },
+        {
+          "day": 5,
+          "task": "Sửa fluency",
+          "detail": "Luyện cách bắt đầu lại tự nhiên: What I mean is..., Let me put it this way...."
+        },
+        {
+          "day": 6,
+          "task": "Bài mô phỏng Part 3",
+          "detail": "10 câu hỏi, mỗi câu 45-60 giây."
+        },
+        {
+          "day": 7,
+          "task": "Sửa transcript",
+          "detail": "Chép lời 2 phút nói và nâng cấp 10 câu."
+        }
       ]
     },
-    { 
-      "week": 6, 
-      "topic": "Writing Task 1 nâng cao", 
+    {
+      "week": 6,
+      "topic": "Writing Task 1 nâng cao",
       "focus": "Maps/Process, chọn dữ liệu, so sánh và đa dạng câu",
       "checkpoint": "Viết 3 bài Task 1 khác dạng; Overview đủ main features",
       "daily_plan": [
-        { "day": 1, "task": "Overview nâng cao", "detail": "Viết Overview cho 8 hình, không dùng số chi tiết." },
-        { "day": 2, "task": "Chọn dữ liệu", "detail": "Chọn 6 số quan trọng nhất; bỏ số không cần thiết." },
-        { "day": 3, "task": "Maps", "detail": "Before/after, directions, replacement, expansion, access." },
-        { "day": 4, "task": "Process", "detail": "Passive voice, sequence, stages và natural verbs." },
-        { "day": 5, "task": "So sánh phức", "detail": "while/whereas, respectively, the gap between X and Y." },
-        { "day": 6, "task": "Bấm giờ Task 1", "detail": "3 bài 20 phút, mỗi bài tập trung vào một lỗi." },
-        { "day": 7, "task": "Rà lại Task 1", "detail": "Chỉ viết lại Overview và 2 câu so sánh chính." }
+        {
+          "day": 1,
+          "task": "Overview nâng cao",
+          "detail": "Viết Overview cho 8 hình, không dùng số chi tiết."
+        },
+        {
+          "day": 2,
+          "task": "Chọn dữ liệu",
+          "detail": "Chọn 6 số quan trọng nhất; bỏ số không cần thiết."
+        },
+        {
+          "day": 3,
+          "task": "Maps",
+          "detail": "Before/after, directions, replacement, expansion, access."
+        },
+        {
+          "day": 4,
+          "task": "Process",
+          "detail": "Passive voice, sequence, stages và natural verbs."
+        },
+        {
+          "day": 5,
+          "task": "So sánh phức",
+          "detail": "while/whereas, respectively, the gap between X and Y."
+        },
+        {
+          "day": 6,
+          "task": "Bấm giờ Task 1",
+          "detail": "3 bài 20 phút, mỗi bài tập trung vào một lỗi."
+        },
+        {
+          "day": 7,
+          "task": "Rà lại Task 1",
+          "detail": "Chỉ viết lại Overview và 2 câu so sánh chính."
+        }
       ]
     },
-    { 
-      "week": 7, 
-      "topic": "Tuần áp lực đầy đủ", 
+    {
+      "week": 7,
+      "topic": "Tuần áp lực đầy đủ",
       "focus": "Reading bấm giờ, Writing bấm giờ, Speaking mô phỏng",
       "checkpoint": "Hoàn thành gần đầy đủ bài mô phỏng; biết lỗi do kỹ năng hay áp lực",
       "daily_plan": [
-        { "day": 1, "task": "Reading bấm giờ", "detail": "Full Reading hoặc 2 passage; ghi lỗi do thời gian." },
-        { "day": 2, "task": "Writing bấm giờ", "detail": "Task 1 và Task 2 trong 60 phút." },
-        { "day": 3, "task": "Speaking bài mô phỏng", "detail": "Làm bài mô phỏng đầy đủ với người học cùng hoặc giáo viên; bắt buộc ghi âm." },
-        { "day": 4, "task": "Ngày sửa lỗi", "detail": "Chỉ sửa 3 lỗi ảnh hưởng điểm nhiều nhất." },
-        { "day": 5, "task": "Lần làm thứ hai", "detail": "Làm đề mới cùng dạng để chuyển kỹ năng sang ngữ cảnh khác." },
-        { "day": 6, "task": "Tập áp lực", "detail": "Tạo điều kiện giống thi: không dừng, không tra từ." },
-        { "day": 7, "task": "Phục hồi", "detail": "Rà lại nhẹ, ngủ đủ và giảm lo âu trước khi học tiếp." }
+        {
+          "day": 1,
+          "task": "Reading bấm giờ",
+          "detail": "Full Reading hoặc 2 passage; ghi lỗi do thời gian."
+        },
+        {
+          "day": 2,
+          "task": "Writing bấm giờ",
+          "detail": "Task 1 và Task 2 trong 60 phút."
+        },
+        {
+          "day": 3,
+          "task": "Speaking bài mô phỏng",
+          "detail": "Làm bài mô phỏng đầy đủ với người học cùng hoặc giáo viên; bắt buộc ghi âm."
+        },
+        {
+          "day": 4,
+          "task": "Ngày sửa lỗi",
+          "detail": "Chỉ sửa 3 lỗi ảnh hưởng điểm nhiều nhất."
+        },
+        {
+          "day": 5,
+          "task": "Lần làm thứ hai",
+          "detail": "Làm đề mới cùng dạng để chuyển kỹ năng sang ngữ cảnh khác."
+        },
+        {
+          "day": 6,
+          "task": "Tập áp lực",
+          "detail": "Tạo điều kiện giống thi: không dừng, không tra từ."
+        },
+        {
+          "day": 7,
+          "task": "Phục hồi",
+          "detail": "Rà lại nhẹ, ngủ đủ và giảm lo âu trước khi học tiếp."
+        }
       ]
     },
-    { 
-      "week": 8, 
-      "topic": "Tinh chỉnh trước bài thi", 
+    {
+      "week": 8,
+      "topic": "Tinh chỉnh trước bài thi",
       "focus": "chỉnh sửa, độ tự nhiên, bài mô phỏng cuối và kế hoạch nội dung",
       "checkpoint": "Hồ sơ học tập cuối khóa: 2 essay, 2 Task 1, 3 bản ghi âm Speaking và nhật ký Reading",
       "daily_plan": [
-        { "day": 1, "task": "Chọn hồ sơ học tập", "detail": "Chọn 2 essay, 2 Task 1 và 3 bản ghi âm tốt nhất." },
-        { "day": 2, "task": "Reading cuối", "detail": "Full Reading; tập trung vào độ chính xác dưới áp lực." },
-        { "day": 3, "task": "Writing cuối", "detail": "Essay và tự nhận xét theo 4 tiêu chí." },
-        { "day": 4, "task": "Speaking cuối", "detail": "Ghi âm bài nói đầy đủ và tự chấm." },
-        { "day": 5, "task": "Tinh chỉnh", "detail": "Sửa word choice, punctuation và final consonants." },
-        { "day": 6, "task": "Kế hoạch tiếp theo", "detail": "Viết kế hoạch 30 ngày sau hè." },
-        { "day": 7, "task": "Chia sẻ tổng kết", "detail": "Viết bài phản ánh: mình đã học được điều gì?" }
+        {
+          "day": 1,
+          "task": "Chọn hồ sơ học tập",
+          "detail": "Chọn 2 essay, 2 Task 1 và 3 bản ghi âm tốt nhất."
+        },
+        {
+          "day": 2,
+          "task": "Reading cuối",
+          "detail": "Full Reading; tập trung vào độ chính xác dưới áp lực."
+        },
+        {
+          "day": 3,
+          "task": "Writing cuối",
+          "detail": "Essay và tự nhận xét theo 4 tiêu chí."
+        },
+        {
+          "day": 4,
+          "task": "Speaking cuối",
+          "detail": "Ghi âm bài nói đầy đủ và tự chấm."
+        },
+        {
+          "day": 5,
+          "task": "Tinh chỉnh",
+          "detail": "Sửa word choice, punctuation và final consonants."
+        },
+        {
+          "day": 6,
+          "task": "Kế hoạch tiếp theo",
+          "detail": "Viết kế hoạch 30 ngày sau hè."
+        },
+        {
+          "day": 7,
+          "task": "Chia sẻ tổng kết",
+          "detail": "Viết bài phản ánh: mình đã học được điều gì?"
+        }
+      ]
+    }
+  ],
+  "practice_tests": [
+    {
+      "id": "passage_1",
+      "title": "Passage 1 - Short-form videos and attention",
+      "content": [
+        "In the last decade, short-form video platforms have become one of the most influential forms of entertainment for teenagers. Their appeal is easy to understand. Videos are brief, visually engaging, and often personalised by algorithms that learn what each user is likely to watch next. For a tired student, opening an app and watching a few clips may feel like a harmless way to relax after school.",
+        "However, some educators have become concerned about the effect of this habit on students' attention. The problem is not simply that young people are \"lazy\" or that entertainment is bad. Rather, short videos provide frequent rewards in a very compressed form. A joke, a surprising fact, a dance, a dramatic story and an advertisement can all appear within a few minutes. When the brain becomes used to this pace, slower tasks such as reading a long article or writing an essay may feel unusually demanding.",
+        "This does not mean that short-form content is always harmful. Some teachers use short videos to introduce new topics, demonstrate scientific processes or make historical events more memorable. A well-designed one-minute video can spark curiosity and help students approach a subject they previously found boring. The educational value depends largely on whether the video is used as a doorway into deeper learning or as a replacement for it.",
+        "Another issue is the social nature of these platforms. Teenagers do not only watch videos; they also comment on them, share them and compare their lives with the lives of others. This can create a feeling of connection, especially for students who are shy or isolated at school. Yet it can also increase anxiety when users constantly compare themselves with people who appear more attractive, successful or confident.",
+        "For parents and teachers, banning short videos completely may not be realistic. A more useful approach is to help students become aware of how they use these platforms. This might include setting time limits, turning off notifications during study periods, and discussing the difference between active learning and passive scrolling. The goal is not to remove entertainment from students' lives, but to make sure it does not quietly train them to avoid every task that requires patience."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tfng",
+          "text": "1. Short-form videos are usually personalised by algorithms.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "type": "tfng",
+          "text": "2. The passage says teenagers watch short videos mainly because they are lazy.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "type": "tfng",
+          "text": "3. Short videos can sometimes be used to introduce educational topics.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "type": "tfng",
+          "text": "4. Teachers in most countries have banned short videos in classrooms.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "type": "tfng",
+          "text": "5. Social comparison on video platforms may increase anxiety.",
+          "answer": "True"
+        },
+        {
+          "id": 6,
+          "type": "tfng",
+          "text": "6. The writer believes entertainment should be removed from students' lives.",
+          "answer": "False"
+        },
+        {
+          "id": 7,
+          "type": "short",
+          "text": "7. What kind of tasks may feel unusually demanding after exposure to fast-paced videos?",
+          "answer": "reading a long article/writing an essay"
+        },
+        {
+          "id": 8,
+          "type": "short",
+          "text": "8. What can a well-designed one-minute video spark?",
+          "answer": "curiosity"
+        },
+        {
+          "id": 9,
+          "type": "short",
+          "text": "9. What do teenagers do with videos besides watching and commenting on them?",
+          "answer": "share them"
+        },
+        {
+          "id": 10,
+          "type": "short",
+          "text": "10. What should students turn off during study periods?",
+          "answer": "notifications"
+        },
+        {
+          "id": 11,
+          "type": "short",
+          "text": "11. What kind of scrolling does the passage contrast with active learning?",
+          "answer": "passive scrolling"
+        },
+        {
+          "id": 12,
+          "type": "short",
+          "text": "12. What quality do demanding tasks require?",
+          "answer": "patience"
+        }
       ]
     }
   ]
