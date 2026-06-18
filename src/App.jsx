@@ -174,6 +174,25 @@ function LessonDetailPage({ data, routePrefix }) {
   const [expandedDay, setExpandedDay] = useState(null);
   const [expandedPracticeDay, setExpandedPracticeDay] = useState(null);
 
+  const storageKey = 'ielts_summer_completed_days';
+  const [completedDays, setCompletedDays] = useState(() => {
+    return JSON.parse(localStorage.getItem(storageKey)) || [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem(storageKey, JSON.stringify(completedDays));
+  }, [completedDays]);
+
+  const toggleComplete = (dayId) => {
+    setCompletedDays(prev => {
+      if (prev.includes(dayId)) {
+        return prev.filter(d => d !== dayId);
+      } else {
+        return [...prev, dayId];
+      }
+    });
+  };
+
   const routeData = routePrefix === 'route-a' ? data.route_a : data.route_b;
   const lesson = routeData.find(item => item.week.toString() === id);
 
@@ -216,8 +235,12 @@ function LessonDetailPage({ data, routePrefix }) {
         
         {lesson.daily_plan && lesson.daily_plan.length > 0 ? (
           <div className="lesson-list">
-            {lesson.daily_plan.map(dp => (
-              <div key={dp.day} className="lesson-item" style={{ marginBottom: '1.5rem' }}>
+            {lesson.daily_plan.map(dp => {
+              const dayId = `${routePrefix}_w${lesson.week}_d${dp.day}`;
+              const isCompleted = completedDays.includes(dayId);
+
+              return (
+              <div key={dp.day} className={`lesson-item ${isCompleted ? 'completed-day' : ''}`} style={{ marginBottom: '1.5rem', opacity: isCompleted ? 0.6 : 1, filter: isCompleted ? 'grayscale(80%)' : 'none', transition: 'all 0.3s ease' }}>
                 <div 
                   style={{ cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} 
                   onClick={() => {
@@ -226,10 +249,10 @@ function LessonDetailPage({ data, routePrefix }) {
                   }}
                 >
                   <div>
-                    <h4 style={{ display: 'flex', alignItems: 'center', gap: '10px', margin: '0 0 0.5rem 0', color: 'var(--text-main)', fontSize: '1.2rem' }}>
-                      <Calendar size={20} color="var(--primary)" /> Ngày {dp.day}: {dp.task}
+                    <h4 style={{ display: 'flex', alignItems: 'center', gap: '10px', margin: '0 0 0.5rem 0', color: 'var(--text-main)', fontSize: '1.2rem', textDecoration: isCompleted ? 'line-through' : 'none' }}>
+                      {isCompleted ? <CheckCircle size={20} color="var(--primary)" /> : <Calendar size={20} color="var(--primary)" />} Ngày {dp.day}: {dp.task}
                     </h4>
-                    <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', margin: 0, fontSize: '1.05rem' }}>{dp.detail}</p>
+                    <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', margin: 0, fontSize: '1.05rem', textDecoration: isCompleted ? 'line-through' : 'none' }}>{dp.detail}</p>
                   </div>
                   <div style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '1rem', flexShrink: 0, paddingLeft: '1.5rem' }}>
                     {expandedDay === dp.day ? '▲ Thu gọn' : '▼ Chi tiết'}
@@ -259,10 +282,21 @@ function LessonDetailPage({ data, routePrefix }) {
                         )}
                       </div>
                     )}
+                    
+                    {/* Mark Complete Button */}
+                    <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px dashed var(--border-color)', display: 'flex', justifyContent: 'flex-end' }}>
+                      <button 
+                        className={isCompleted ? "btn-secondary" : "btn-primary"} 
+                        style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
+                        onClick={() => toggleComplete(dayId)}
+                      >
+                        <CheckCircle size={18} /> {isCompleted ? 'Hủy đánh dấu (Học lại)' : 'Đánh dấu Đã học xong'}
+                      </button>
+                    </div>
                   </div>
                 )}
               </div>
-            ))}
+            )})}
           </div>
         ) : (
           <p style={{marginTop: '1rem', fontStyle: 'italic', color: 'var(--text-muted)'}}>Nội dung chi tiết đang được cập nhật...</p>
