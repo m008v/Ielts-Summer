@@ -291,6 +291,12 @@ body {
   height: calc(100vh - 200px);
 }
 
+.mini-quiz-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .quiz-passage, .quiz-questions {
   flex: 1;
   background: var(--card-bg);

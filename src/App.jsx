@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Calendar, Target, BookOpen, CheckCircle, X, Edit3, Sun, Moon } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
-function PracticeTest({ test }) {
+function PracticeTest({ test, isMini }) {
   const storageKey = `ielts_summer_answers_${test.id}`;
   const savedAnswers = JSON.parse(localStorage.getItem(storageKey)) || {};
   
@@ -41,10 +41,12 @@ function PracticeTest({ test }) {
   return (
     <div style={{ animation: 'fadeIn 0.5s ease' }}>
       <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '0 0 1.5rem 0'}}>
-        <h2 style={{ fontSize: '1.8rem' }}><Edit3 style={{display: 'inline', marginRight: '10px'}}/> {test.title}</h2>
+        <h2 style={{ fontSize: isMini ? '1.4rem' : '1.8rem', color: 'var(--text-main)' }}>
+          <Edit3 style={{display: 'inline', marginRight: '10px'}}/> {test.title}
+        </h2>
         {submitted && <span className="badge" style={{fontSize: '1.1rem'}}>Điểm: {score}/{test.questions.length}</span>}
       </div>
-      <div className="quiz-container">
+      <div className={isMini ? "mini-quiz-container" : "quiz-container"}>
         <div className="quiz-passage">
           {test.content.map((p, idx) => (
             <p key={idx}>{p}</p>
@@ -105,6 +107,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('60days');
   const [selectedLesson, setSelectedLesson] = useState(null);
   const [expandedDay, setExpandedDay] = useState(null);
+  const [expandedPracticeDay, setExpandedPracticeDay] = useState(null);
   const [selectedPracticeId, setSelectedPracticeId] = useState(null);
   
   // Theme state
@@ -313,9 +316,9 @@ function App() {
 
       {/* Modal Popup (Glassmorphism) */}
       {selectedLesson && (
-        <div className="modal-overlay" onClick={() => { setSelectedLesson(null); setExpandedDay(null); }}>
+        <div className="modal-overlay" onClick={() => { setSelectedLesson(null); setExpandedDay(null); setExpandedPracticeDay(null); }}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="modal-close" onClick={() => { setSelectedLesson(null); setExpandedDay(null); }}>
+            <button className="modal-close" onClick={() => { setSelectedLesson(null); setExpandedDay(null); setExpandedPracticeDay(null); }}>
               <X size={24} />
             </button>
             <div style={{marginBottom: '2rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1.5rem'}}>
@@ -359,6 +362,24 @@ function App() {
                         <div className="markdown-body">
                           <ReactMarkdown>{dp.deep_dive}</ReactMarkdown>
                         </div>
+                        
+                        {dp.practice && (
+                          <div style={{ marginTop: '2rem' }}>
+                            <button 
+                              className="btn-primary" 
+                              style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px' }}
+                              onClick={() => setExpandedPracticeDay(expandedPracticeDay === dp.day ? null : dp.day)}
+                            >
+                              <Edit3 size={18} /> {expandedPracticeDay === dp.day ? 'Đóng bài tập' : 'Mở bài tập Luyện tập'}
+                            </button>
+                            
+                            {expandedPracticeDay === dp.day && (
+                              <div style={{ marginTop: '1.5rem', padding: '1.5rem', borderRadius: '16px', border: '1px solid var(--border-color)', background: 'rgba(0,0,0,0.02)' }}>
+                                <PracticeTest test={dp.practice} isMini={true} />
+                              </div>
+                            )}
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>
