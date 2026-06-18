@@ -397,7 +397,7 @@ function App() {
   }, [isDarkMode]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api.php')
+    fetch('/api.php')
       .then((res) => res.json())
       .then((json) => {
         setData(json);
